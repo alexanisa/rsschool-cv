@@ -58,7 +58,7 @@ Currently, I'm in the process of learning and working on my first educational pr
 
 **Technologies:** HTML, CSS
 
-**Repository:** []
+**Repository:** [CLICK](https://github.com/alexanisa/rsschool-cv)
 
 ## Education
 
