@@ -1,10 +1,14 @@
 # Tatiana Mironovich
+
+![Tatiana Mironovich](milye-kotiki-v-shapochkakh-5.webp)
+<img src="/rsschool-cv/milye-kotiki-v-shapochkakh-5.webp" alt="Татьяна Миронович" width="200" height="200">
 ## Contact Information:
 
 * **Phone:** +7 965-637-81-68
 * **E-mail:** [taniamironovich@vk.com] (<mailto:taniamironovich@vk.com)>
 * **GitHub:** [alexanisa] (https://github.com/alexanisa)
 * **Telegram** [Tania Mironovich] (https://t.me/moshkidza)
+* **Discord** [alexanisa]
 
 ## About Me
 I'm 25 years old and an aspiring Frontend Developer. I have two higher education degrees (Bachelor's and Master's) in a technical field, graduating from my Master's program with honors (red diploma). This background has developed my analytical skills, attention to detail, and systems thinking.
@@ -30,7 +34,22 @@ Currently, I'm fully focused on mastering Frontend Development. I'm studying at 
 * **Currently learning:** responsive layout, Flexbox/Grid, React basics
 
 # Code Examples
+```javascript
+// Find the smallest integer in an array
+function findSmallestInt(arr) {
+  let min = arr[0];           
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < min) {      
+      min = arr[i];
+    }
+  }
+  return min;         
+}
 
+// Example usage:
+const numbers = [34, 15, 88, 2];
+console.log(findSmallestInt(numbers)); // 2
+```
 
 ## Projects
 Currently, I'm in the process of learning and working on my first educational projects. Soon there will be links to my work here.
@@ -61,7 +80,7 @@ Introductory web development course from Yandex
 Self-study at schoolsw3.com
 
 
-# Languages
+## Languages
 
 Russian — Native
 
