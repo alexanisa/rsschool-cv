@@ -1,14 +1,14 @@
 # Tatiana Mironovich
 
-![Tatiana Mironovich](milye-kotiki-v-shapochkakh-5.webp)
-<img src="/rsschool-cv/milye-kotiki-v-shapochkakh-5.webp" alt="Татьяна Миронович" width="200" height="200">
+<img src="milye-kotiki-v-shapochkakh-5.webp" alt="Милый котик" width="150" height="150" style="border-radius: 50%;">
+
 ## Contact Information:
 
 * **Phone:** +7 965-637-81-68
-* **E-mail:** [taniamironovich@vk.com] (<mailto:taniamironovich@vk.com)>
-* **GitHub:** [alexanisa] (https://github.com/alexanisa)
-* **Telegram** [Tania Mironovich] (https://t.me/moshkidza)
-* **Discord** [alexanisa]
+* **E-mail:** [taniamironovich@vk.com](mailto:taniamironovich@vk.com)
+* **GitHub:** [alexanisa](https://github.com/alexanisa)
+* **Telegram** [Tania Mironovich](https://t.me/moshkidza)
+* **Discord** [@Alexanisa](https://discord.com/users/tatiana_mironovich)
 
 ## About Me
 I'm 25 years old and an aspiring Frontend Developer. I have two higher education degrees (Bachelor's and Master's) in a technical field, graduating from my Master's program with honors (red diploma). This background has developed my analytical skills, attention to detail, and systems thinking.
@@ -61,31 +61,22 @@ Currently, I'm in the process of learning and working on my first educational pr
 **Repository:** []
 
 ## Education
-2024–2026: State University of Aerospace Instrumentation
 
-Master's degree, specialisation "Standardization and Metrology"
+🎓 **2024–2026:** State University of Aerospace Instrumentation  
+Master's degree, specialisation "Standardization and Metrology"  
+🏆 **Honors degree (red diploma)**
 
-Honors degree (red diploma)
-
-2020–2024: Baltic State University
-
+🎓 **2020–2024:** Baltic State University  
 Bachelor's degree, specialisation "Standardization and Metrology"
 
-Additional training:
-
-RS School (JavaScript / Frontend) — in progress
-
-Introductory web development course from Yandex
-
-Self-study at schoolsw3.com
-
+📚 **Additional training:**  
+* 💻 RS School (JavaScript / Frontend) — _in progress_  
+* 🟡 Introductory web development course from Yandex  
+* 🌐 Self-study at [schoolsw3.com](https://www.schoolsw3.com)
 
 ## Languages
 
-Russian — Native
-
-English — A2 (Pre-Intermediate), planning to improve to B1–B2
-
-Tested at efset.org
-
-Read technical documentation with a translator, learning to understand code in English
+🗣️ **Russian** — Native  
+🌍 **English** — A2 (Pre-Intermediate), planning to improve to B1–B2  
+* Tested at [efset.org](https://www.efset.org)  
+* Read technical documentation with a translator, learning to understand code in English
