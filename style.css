@@ -6,36 +6,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url(./fonts//Montserrat-Medium.woff2) format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Montserrat';
-    src: url(./fonts/Montserrat-SemiBold.woff2) format('woff2');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
     font-family:'Montserrat';
     src: url(./fonts/Montserrat-Bold\ .woff2) format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat Alternates';
-    src: url(./fonts/MontserratAlternates-Bold.woff2) format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url(./fonts/HelveticaNeue-Bold.woff2) format('woff2');
     font-weight: 700;
     font-style: normal;
 }
@@ -47,15 +19,11 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Druke Wide';
-    src: url(./fonts/FontsFree-Net-Druk-Wide-Medium.woff2) format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
+
 * {
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -115,16 +83,17 @@ body {
 }
 
 .content {
-    max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
 }
 
 .container_left {
-    max-width: 450px;
+    flex: 1;
     background: rgba(110, 96, 110, 0.3);
     border-radius: 20px;
 
@@ -141,6 +110,7 @@ body {
 .profile__photo {
     width: 160px;
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 
 
 }
@@ -149,8 +119,9 @@ body {
     font-family: 'Dela Gothic One', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 24px;
     color:#fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .profile__contact-list {
@@ -165,7 +136,7 @@ body {
 }
 
 .profile__contact-item {
-    width: 400px;
+    width:100%;
     font-size: 20px;
     background: rgba(70, 66, 70, 0.3);
     padding: 5px;
@@ -177,4 +148,116 @@ body {
 .contact__link:hover {
     color: #181313;
     text-decoration: underline;
+}
+
+.about {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    background: rgba(70, 66, 70, 0.3);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px;
+    margin: 18px;
+
+}
+
+.about__title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.about__text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about__item {
+    margin-left: 15px;
+    list-style-type: circle;
+}
+
+.container_right {
+    flex: 1;
+    background: #fff;
+    border-radius: 20px;
+
+}
+
+.skills {
+    padding: 19px 50px 0 14px;
+}
+
+.skills__title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    background-color: #545454;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.skills__title::after {
+    content: "";
+    height: 2px;
+    background-color: #545454;
+    position: absolute;
+    width: 240px;
+    margin-left: 5px;
+    top:50%
+}
+
+.skills_list {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.skills__item {
+    font-weight: 400;
+}
+
+.skills__category {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.code-example {
+    display: inline-block;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    background-color: #545454;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 14px;
+    position: relative;
+}
+
+.code-example:after {
+    content: "";
+    height: 2px;
+    background-color: #545454;
+    position: absolute;
+    width: 181px;
+    margin-left: 5px;
+    top:50%
+}
+pre {
+    text-align: center;
+    width: 100%;
+}
+
+code {
+    text-align: center;
 }
