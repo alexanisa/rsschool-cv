@@ -3,16 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV - TATIANA MIRONOVICH</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalizev_v2.css">
+    <link rel="icon" href="./cat.png">
 </head>
 <body>
-<header><h1>Tatiana Mironovich</h1></header>
-<main>
-    <section>
+    <header>
+        <div class="profile">
+            <img src="./milye-kotiki-v-shapochkakh-5.webp" alt="Котенок вместо аватарки" class="profile__photo">
+            <div class="profile__info">
+                <h1>Tatiana Mironovich</h1>
+                <ul>
+                    <li>📞 +7 967-638-64-61</li>
+                    <li>📧 <a href="mailto:taniamironovich@vk.com">taniamironovich@vk.com</a></li>
+                    <li>🐙 <a href="https://github.com/alexanisa">GitHub</a></li>
+                    <li>💬 <a href="https://t.me/tmironik">Telegram</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section class="about_me">
             <h2>About Me</h2>
             <p>I'm 25 years old and an aspiring Frontend Developer.</p>
+            <p>Two technical degrees (Bachelor's & Master's with honors) gave me analytical skills and attention to detail.</p>
+            <ul>
+                <li>Quick learner</li>
+                <li>Attention to detail</li>
+                <li>Diligence and discipline</li>
+            </ul>
+        </section.about_me>
+        <section class="skills">
+            <h2>Tech Stack</h2>
+                <ul>
+                    <li><strong>Languages:</strong> HTML5, CSS3, JavaScript (basics)</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Tools:</strong> VS Code, Figma (basic)</li>
+                </ul>
         </section>
-</main>
+        <section class="code">
+            <h2 class="code-example">Code Examples</h2>
+            <pre><code>
+                function findSmallestInt(arr) {
+                    let min = arr[0];
+                    for (let i = 1; i < arr.length; i++) {
+                        if (arr[i] < min) {
+                            min = arr[i];
+                        }
+                    }
+                    return min;
+                }
+            </code></pre>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>CV / Portfolio Website</strong> — <a href="https://github.com/alexanisa/rsschool-cv">GitHub</a></li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+                <ul>
+                    <li><strong>2024–2026:</strong> State University of Aerospace Instrumentation — Master's degree (red diploma)</li>
+                    <li><strong>2020–2024:</strong> Baltic State University — Bachelor's degree</li>
+                    <li><strong>RS School</strong> — Frontend course (in progress)</li>
+                </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/alexanisa">GitHub</a>
+        <span>2026</span>
+        <a href="https://rs.school/courses/javascript">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo" width="50">
+        </a>
+    </footer>
 </body>
 </html>
