@@ -41,6 +41,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 1px solid #000;
 }
 
 .header {
@@ -341,4 +342,28 @@ code {
 .education__item {
     font-size: 15px;
     font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    color: #181313;
+}
+
+.footer__link {
+    font-size: 18px;
+}
+
+.footer__link:hover {
+    color: #545454;
+    text-decoration: underline;
 }
