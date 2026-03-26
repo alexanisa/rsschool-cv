@@ -1,6 +1,6 @@
 # Tatiana Mironovich
 
-<img src="milye-kotiki-v-shapochkakh-5.webp" alt="Милый котик" width="150" height="150" style="border-radius: 50%;">
+<img src="./img/milye-kotiki-v-shapochkakh-5.webp" alt="Милый котик" width="150" height="150" style="border-radius: 50%;">
 
 ## Contact Information:
 
@@ -37,13 +37,13 @@ Currently, I'm fully focused on mastering Frontend Development. I'm studying at 
 ```javascript
 // Find the smallest integer in an array
 function findSmallestInt(arr) {
-  let min = arr[0];           
+  let min = arr[0];
   for (let i = 1; i < arr.length; i++) {
-    if (arr[i] < min) {      
+    if (arr[i] < min) {
       min = arr[i];
     }
   }
-  return min;         
+  return min;
 }
 
 // Example usage:
@@ -62,21 +62,21 @@ Currently, I'm in the process of learning and working on my first educational pr
 
 ## Education
 
-🎓 **2024–2026:** State University of Aerospace Instrumentation  
-Master's degree, specialisation "Standardization and Metrology"  
+🎓 **2024–2026:** State University of Aerospace Instrumentation
+Master's degree, specialisation "Standardization and Metrology"
 🏆 **Honors degree (red diploma)**
 
-🎓 **2020–2024:** Baltic State University  
+🎓 **2020–2024:** Baltic State University
 Bachelor's degree, specialisation "Standardization and Metrology"
 
-📚 **Additional training:**  
-* 💻 RS School (JavaScript / Frontend) — _in progress_  
-* 🟡 Introductory web development course from Yandex  
+📚 **Additional training:**
+* 💻 RS School (JavaScript / Frontend) — _in progress_
+* 🟡 Introductory web development course from Yandex
 * 🌐 Self-study at [schoolsw3.com](https://www.schoolsw3.com)
 
 ## Languages
 
-🗣️ **Russian** — Native  
-🌍 **English** — A2 (Pre-Intermediate), planning to improve to B1–B2  
-* Tested at [efset.org](https://www.efset.org)  
+🗣️ **Russian** — Native
+🌍 **English** — A2 (Pre-Intermediate), planning to improve to B1–B2
+* Tested at [efset.org](https://www.efset.org)
 * Read technical documentation with a translator, learning to understand code in English
