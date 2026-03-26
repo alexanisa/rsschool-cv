@@ -1,6 +1,6 @@
 # Tatiana Mironovich
 
-<img src="./img/milye-kotiki-v-shapochkakh-5.webp" alt="Милый котик" width="150" height="150" style="border-radius: 50%;">
+<img src="./img/milye-kotiki-v-shapochkakh-5.webp" alt="Kitten on the avatar" width="150" height="150" style="border-radius: 50%;">
 
 ## Contact Information:
 
