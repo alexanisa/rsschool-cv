@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts//Montserrat-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(./fonts/Montserrat-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(./fonts/Montserrat-Bold\ .woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(./fonts/MontserratAlternates-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(./fonts/HelveticaNeue-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url(./fonts/DelaGothicOne-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druke Wide';
+    src: url(./fonts/FontsFree-Net-Druk-Wide-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+* {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #b8c6ff, #ffc8dd);
+    background-attachment: fixed;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.navigation__list {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__item {
+    font-size: 24px;
+    color: #545454;
+}
+
+.navigation__link {
+    text-decoration: none;
+
+
+}
+.navigation__link:hover {
+    color: #181313;
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_left {
+    max-width: 450px;
+    background: rgba(110, 96, 110, 0.3);
+    border-radius: 20px;
+
+}
+
+.profile {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.profile__photo {
+    width: 160px;
+    border-radius: 50%;
+
+
+}
+
+.profile__title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#fff;
+}
+
+.profile__contact-list {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 19px 18px 13px;
+
+
+}
+
+.profile__contact-item {
+    width: 400px;
+    font-size: 20px;
+    background: rgba(70, 66, 70, 0.3);
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.contact__link:hover {
+    color: #181313;
+    text-decoration: underline;
+}
