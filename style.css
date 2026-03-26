@@ -32,12 +32,15 @@ a {
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
     background: linear-gradient(180deg, #b8c6ff, #ffc8dd);
     background-attachment: fixed;
 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .header {
@@ -50,6 +53,7 @@ body {
 }
 
 .navigation {
+    width: 100%;
     padding-bottom: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -84,15 +88,14 @@ body {
 
 .content {
     width: 100%;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
 
 }
 
 .container_left {
+    min-width: 0;
+    width: 100%;
     flex: 1;
     background: rgba(110, 96, 110, 0.3);
     border-radius: 20px;
@@ -105,6 +108,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 5px;
+    margin-top: 20px;
 }
 
 .profile__photo {
@@ -131,6 +135,7 @@ body {
     flex-direction: column;
     gap: 5px;
     padding: 19px 18px 13px;
+    margin-top: 20px;
 
 
 }
@@ -181,6 +186,8 @@ body {
 }
 
 .container_right {
+    min-width: 0;
+    width: 100%;
     flex: 1;
     background: #fff;
     border-radius: 20px;
@@ -229,6 +236,7 @@ body {
     margin-right: 5px;
 }
 
+
 .code-example {
     display: inline-block;
     font-family: 'Montserrat',sans-serif;
@@ -241,6 +249,7 @@ body {
     padding: 5px;
     margin-top: 10px;
     margin-left: 14px;
+    margin-bottom: 10px;
     position: relative;
 }
 
@@ -253,11 +262,83 @@ body {
     margin-left: 5px;
     top:50%
 }
-pre {
-    text-align: center;
-    width: 100%;
+
+
+.code-block {
+    background-color: #545454;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: #fff;
+
 }
 
 code {
-    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.projects {
+    width: 100%;
+}
+
+.projects__title,
+.education__title {
+    display: inline-block;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    background-color: #545454;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.projects__title::after {
+    content: "";
+    height: 2px;
+    background-color: #545454;
+    position: absolute;
+    width: 260px;
+    margin-left: 5px;
+    top:50%
+}
+
+.projects__list,
+.education__list {
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 18px;
+}
+
+.projects__item {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.projects__name,
+.education__years {
+    font-weight: 700;
+}
+
+.projects__link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #d859cd;
+
+}
+.education {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.education__item {
+    font-size: 15px;
+    font-weight: 400;
 }

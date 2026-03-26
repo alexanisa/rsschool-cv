@@ -9,86 +9,88 @@
     <link rel="icon" href="./cat.png">
 </head>
 <body>
-    <header class="header">
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
-                <li class="navigation__item"><a  href="#skills" class="navigation__link">Skills</a></li>
-                <li class="navigation__item"><a href="#code" class="navigation__link">Code</a></li>
-                <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
-                <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="content">
-        <div class="container_left">
-            <div class="profile">
-                <img src="./milye-kotiki-v-shapochkakh-5.webp" alt="Котенок вместо аватарки" class="profile__photo">
-                <h1 class="profile__title">Tatiana Mironovich</h1>
+    <div class="container">
+        <header class="header">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a  href="#skills" class="navigation__link">Skills</a></li>
+                    <li class="navigation__item"><a href="#code" class="navigation__link">Code</a></li>
+                    <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+                    <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <div class="container_left">
+                <div class="profile">
+                    <img src="./milye-kotiki-v-shapochkakh-5.webp" alt="Котенок вместо аватарки" class="profile__photo">
+                    <h1 class="profile__title">Tatiana Mironovich</h1>
+                </div>
+                <ul class="profile__contact-list">
+                    <li class="profile__contact-item">📞 +7 967-638-64-61</li>
+                    <li class="profile__contact-item">📧 <a href="mailto:taniamironovich@vk.com" class="contact__link">taniamironovich@vk.com</a></li>
+                    <li class="profile__contact-item">🐙 <a href="https://github.com/alexanisa" class="contact__link">GitHub</a></li>
+                    <li class="profile__contact-item">💬 <a href="https://t.me/tmironik" class="contact__link">Telegram</a></li>
+                </ul>
+                <section class="about" id="about">
+                    <h2 class="about__title">About Me</h2>
+                    <p class="about__text">I'm 25 years old and an aspiring Frontend Developer.</p>
+                    <p class="about__text">Two technical degrees (Bachelor's & Master's with honors) gave me analytical skills and attention to detail.</p>
+                    <h2 class="about__title">My strengths:</h2>
+                    <ul class="about__list">
+                        <li class="about__item">Quick learner</li>
+                        <li class="about__item">Attention to detail</li>
+                        <li class="about__item">Diligence and discipline</li>
+                    </ul>
+                </section>
             </div>
-            <ul class="profile__contact-list">
-                <li class="profile__contact-item">📞 +7 967-638-64-61</li>
-                <li class="profile__contact-item">📧 <a href="mailto:taniamironovich@vk.com" class="contact__link">taniamironovich@vk.com</a></li>
-                <li class="profile__contact-item">🐙 <a href="https://github.com/alexanisa" class="contact__link">GitHub</a></li>
-                <li class="profile__contact-item">💬 <a href="https://t.me/tmironik" class="contact__link">Telegram</a></li>
-            </ul>
-            <section class="about" id="about">
-                <h2 class="about__title">About Me</h2>
-                <p class="about__text">I'm 25 years old and an aspiring Frontend Developer.</p>
-                <p class="about__text">Two technical degrees (Bachelor's & Master's with honors) gave me analytical skills and attention to detail.</p>
-                <h2 class="about__title">My strengths:</h2>
-                <ul class="about__list">
-                    <li class="about__item">Quick learner</li>
-                    <li class="about__item">Attention to detail</li>
-                    <li class="about__item">Diligence and discipline</li>
-                </ul>
-            </section>
-        </div>
-        <div class="container_right">
-            <section class="skills">
-                <h2 class="skills__title">Tech Stack</h2>
-                <ul class="skills_list">
-                    <li class="skills__item"><span class="skills__category">Languages:</span> HTML5, CSS3, JavaScript (basics)</li>
-                    <li class="skills__item"><span class="skills__category">Version Control:</span> Git, GitHub</li>
-                    <li class="skills__item"><span class="skills__category">Tools:</span>VS Code, Figma (basic)</li>
-                </ul>
-            </section>
-            <section class="code">
-                <h2 class="code-example">Code Examples</h2>
-                <pre><code>
-                    function findSmallestInt(arr) {
-                        let min = arr[0];
-                        for (let i = 1; i < arr.length; i++) {
-                            if (arr[i] < min) {
-                                min = arr[i];
-                            }
-                        }
-                        return min;
-                    }
-                </code></pre>
-            </section>
-            <section class="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li><strong>CV / Portfolio Website</strong> — <a href="https://github.com/alexanisa/rsschool-cv">GitHub</a></li>
-                </ul>
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>2024–2026:</strong> State University of Aerospace Instrumentation — Master's degree (red diploma)</li>
-                    <li><strong>2020–2024:</strong> Baltic State University — Bachelor's degree</li>
-                    <li><strong>RS School</strong> — Frontend course (in progress)</li>
-                </ul>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <a href="https://github.com/alexanisa">GitHub</a>
-        <span>2026</span>
-        <a href="https://rs.school/courses/javascript">
-            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo" width="50">
-        </a>
-    </footer>
+            <div class="container_right">
+                <section class="skills">
+                    <h2 class="skills__title">Tech Stack</h2>
+                    <ul class="skills_list">
+                        <li class="skills__item"><span class="skills__category">Languages:</span> HTML5, CSS3, JavaScript (basics)</li>
+                        <li class="skills__item"><span class="skills__category">Version Control:</span> Git, GitHub</li>
+                        <li class="skills__item"><span class="skills__category">Tools:</span>VS Code, Figma (basic)</li>
+                    </ul>
+                </section>
+                <section class="code">
+                    <h2 class="code-example">Code Examples</h2>
+                    <pre class="code-block"><code>
+function findSmallestInt(arr) {
+    let min = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    return min;
+}
+                    </code></pre>
+                </section>
+                <section class="projects">
+                    <h2 class="projects__title">Projects</h2>
+                    <ul class="projects__list">
+                        <li class="projects__item"><span class="projects__name">CV / Portfolio Website</span> — <a href="https://github.com/alexanisa/rsschool-cv" class="projects__link">GitHub</a></li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <h2 class="education__title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item"><span class="education__years">2024–2026:</span> State University of Aerospace Instrumentation — Master's degree (red diploma)</li>
+                        <li class="education__item"><span class="education__years">2020–2024:</span> Baltic State University — Bachelor's degree</li>
+                        <li class="education__item"><span class="education__years">RS School</span> — Frontend course (in progress)</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/alexanisa">GitHub</a>
+            <span>2026</span>
+            <a href="https://rs.school/courses/javascript">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo" width="50">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
