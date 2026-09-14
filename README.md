@@ -1,2 +1,4 @@
 ## GitHub Pages CV
-[Моё резюме](https://alexanisa.github.io/rsschool-cv/)
+[CV in Markdown](https://alexanisa.github.io/rsschool-cv/cv)
+
+[CV Website](https://alexanisa.github.io/rsschool-cv/)
