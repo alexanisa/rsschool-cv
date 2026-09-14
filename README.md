@@ -1,4 +1,6 @@
-## GitHub Pages CV
-[CV in Markdown](https://alexanisa.github.io/rsschool-cv/cv)
+# rsschool-cv
 
-[CV Website](https://alexanisa.github.io/rsschool-cv/)
+## CV Links
+
+- [CV in Markdown](https://alexanisa.github.io/rsschool-cv/cv)
+- [CV as Web Page](https://alexanisa.github.io/rsschool-cv/)
