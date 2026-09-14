@@ -1,5 +1,4 @@
 # rsschool-cv
-# rsschool-cv
 
 ## CV Links
 
